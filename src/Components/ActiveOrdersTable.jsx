@@ -42,6 +42,7 @@ const ActiveOrdersTable = ({ orders }) => {
       </Table>
       <EditSaleOrderModal isOpen={isEditModalOpen} onClose={handleEditModalClose} saleOrder={selectedOrder} onUpdate={(updatedOrder) => {
         // Implement the logic to update the sale order data here
+        //ganehs
         console.log("Updated Order:", updatedOrder);
         handleEditModalClose();
       }} />
